@@ -27,6 +27,7 @@ public class InnerCirclePage extends PageObject {
 	@Step
 	public void LaunchIbi() throws InterruptedException {
 
+		//BrowserLaunch
 		this.open();
 		getDriver().manage().window().maximize();
 		getDriver().manage().deleteAllCookies();
